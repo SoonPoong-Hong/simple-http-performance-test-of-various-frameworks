@@ -15,8 +15,8 @@
 
 ## Testing background
 * Testing load is 10,000 concurrent user.
-* The testing tool(gatling) request a millisecond URL. (varying by millisecond)
-  > (ex)  1616726889044
+* The testing tool(gatling) request a URL of millisecond. (varying by millisecond)
+  > (ex)  /1616726889044
 * The target server extract the url and response text that is the three times to the url.
   > (ex)  161672688904416167268890441616726889044
     
