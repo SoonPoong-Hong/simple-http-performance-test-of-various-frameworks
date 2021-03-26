@@ -14,14 +14,19 @@
 * golang with gin
 
 ## Testing background
+* Tested in AWS cloud ec2.
+* server spec
+  > * client(tool) : t3.medium (2 cpu, 4G memory)
+  > * server : t3.medium (2 cpu, 4G memory)
+* Performance testing tool : Gatling
 * Testing load is 10,000 concurrent user.
-* The testing tool(gatling) request a URL of millisecond. (varying by millisecond)
+* The testing tool request a URL of millisecond. (varying by millisecond)
   > (ex)  /1616726889044
-* The target server extract the url and response text that is the three times to the url.
+* The target server extract the url and responds a text that is the three times to the url.
   > (ex)  161672688904416167268890441616726889044
     
 ## Limitation of this test
-* It's just a very simple GET request. And doesn't match real situation.
+* It's just a very simple request. And doesn't match real situation.
   > (no database, no redis, no message queue, no http-client ...)
 * System resource usage was not monitored.
 
