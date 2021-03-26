@@ -43,7 +43,8 @@
 | springboot with kotlin | 1102 | 4,504 |
 | graalvm with spring-native | 1099 | 4,398 |
 | golang with gin | 154 | 15,471 |
-
+  > * In mean time, the smaller is the better.
+  > * In counts/sec, the higher is the better.
 
 ## Conculusion
 First, keep in mind that this test is simply responding some text.
