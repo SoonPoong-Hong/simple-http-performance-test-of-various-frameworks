@@ -50,6 +50,8 @@ First, keep in mind that this test is simply responding some text.
 
 In other words, unless we make something like a gateway, this test may not make much sense.
 
+Because, the eco system and ease of development and maintenance are much more important. 
+
 OK, **My Conclusion** is,
 > * `Golang` is the best in cost performance.
 > * `Non-blocking` certainly has better performance than `blocking`. 
