@@ -41,21 +41,22 @@
 
 
 ## Conculusion
-First, keep in mind that this test is just responding some text.
+First, keep in mind that this test is simply responding some text.
+
 In other words, unless we make something like a gateway, this test may not make much sense.
 
 OK, **My Conclusion** is,
-> * Golang is the best in cost performance.
-> * Non-blocking certainly has better performance than blocking. 
+> * `Golang` is the best in cost performance.
+> * `Non-blocking` certainly has better performance than `blocking`. 
 >   * But, what about the hassle and complexity of non-blocking? 
-> * There is no performance degradation due to using kotlin.
-> * There is about 50% performance degradation by using spring security.
-> * Graalvm has a very good startup time, but the throughput is similar. 
+> * There is no performance degradation due to using `kotlin`.
+> * There is about 50% performance degradation by using `spring security`.
+> * `Graalvm` has a very good startup time, but the throughput is similar. 
  
 ## executable jar and runtime file
-In the executable-outputs directory, There are executable jars and runtime files.
+In the `executable-outputs` directory, There are executable jars and runtime files.
 
-You can execute the jar with **java 11**.
+You can execute the jar with `java 11`.
 
 [examples]
 ```sh
