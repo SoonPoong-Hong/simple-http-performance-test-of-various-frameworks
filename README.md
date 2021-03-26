@@ -29,6 +29,7 @@
 * It's just a very simple request. And doesn't match real situation.
   > (no database, no redis, no message queue, no http-client ...)
 * System resource usage was not monitored.
+* netty is a network library, so it is not suitable for this. But as I was curious to see how much performance would come out, so I added netty.
 
 ## Test Result
 | framework | mean (msec) | counts/sec |
