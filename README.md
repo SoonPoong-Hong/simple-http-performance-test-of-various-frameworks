@@ -1,7 +1,7 @@
 # Simple http performance test of various frameworks, and comparision
  I've tested simple http performance tests, and this is the comparison.
 
-[https://github.com/SoonPoong-Hong/simple-http-performance-test-of-various-frameworks.git](https://github.com/SoonPoong-Hong/simple-http-performance-test-of-various-frameworks.git)
+[https://soonpoong-hong.github.io/performance-test-of-various-frameworks/](https://soonpoong-hong.github.io/performance-test-of-various-frameworks/)
 
 ## Target frameworks
 * netty 
