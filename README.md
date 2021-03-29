@@ -26,7 +26,8 @@
   > (ex)  /1616726889044
 * The target server extract the url and responds a text that is the three times to the url.
   > (ex)  161672688904416167268890441616726889044
-    
+* Test duration : 1 minute
+
 ## Limitation of this test
 * It's just a very simple request. And doesn't match real situation.
   > (no database, no redis, no message queue, no http-client ...)
